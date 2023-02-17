@@ -20,6 +20,16 @@ ul {
     margin-right: auto;
 }
                 /* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 376px) {
+    .container {
+       width: 350px;
+    }
+}
+@media (min-width: 476px) {
+    .container {
+       width: 450px;
+    }
+}
 @media (min-width: 576px) {
     .container {
        width: 550px;
